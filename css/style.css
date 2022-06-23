@@ -33,6 +33,7 @@ img{
 /* buttons */
 .button{
     padding: 15px 15px;
+    text-align: center;
 }
 .button__blue{
     background-color: #0061FF;
@@ -86,6 +87,7 @@ img{
 }
 .col-4{
     flex-basis: calc(100% / 3);
+    padding: 20px;
 }
 .card{
     border: 1px solid lightgray;
