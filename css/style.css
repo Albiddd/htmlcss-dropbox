@@ -1,9 +1,46 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
     display: flex;
+}
+
+ul, li, menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* buttons */
+
+.button__blue{
+    background-color: #0061FF;
+    color: white;
+}
+/* nav bar layout */
+.main-nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav__dx{
+    padding-right: 20px;
+}
+.nav__logo, .menu__element{
+    padding: 10px 20px;
+}
+
+
+
+/* *hero layout */
+.hero{
+    background-color: #B4D0E7;
+    height: 500px;
 }
