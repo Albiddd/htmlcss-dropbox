@@ -66,13 +66,14 @@ img{
 .col-30{
     flex-basis: 30%;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 .col-70{
     flex-basis: 70%;
 }
 
 .hero__arrow{
+    padding-top: 30px;
     width: 46px;
     height: 46px;
 }
