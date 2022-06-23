@@ -17,9 +17,22 @@ ul, li, menu{
 a{
     text-decoration: none;
 }
+.container-large{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
 
 /* buttons */
-
+.button{
+    padding: 15px 15px;
+}
 .button__blue{
     background-color: #0061FF;
     color: white;
@@ -42,5 +55,24 @@ a{
 /* *hero layout */
 .hero{
     background-color: #B4D0E7;
-    height: 500px;
+    height: 736px;
+}
+.hero__title{
+    font-size: 75px;
+    font-weight: 800;
+    padding: 100px 0 45px 0;
+}
+
+.col-30{
+    flex-basis: 30%;
+    flex-direction: column;
+    gap: 40px;
+}
+.col-70{
+    flex-basis: 70%;
+}
+
+.hero__arrow{
+    width: 46px;
+    height: 46px;
 }
