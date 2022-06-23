@@ -93,12 +93,14 @@
         <section class="business-plan">
             <div class="container-small">
                 <h2 class="business__title">Trova il piano Business che fa per te</h2>
-                <input type="radio" id="mensile">
-                <label for="html">Fatturazione mensile</label>
+                <div class="billing">
+                    <input type="radio" id="mensile" name="billing">
+                    <label class="monthly" for="monthly">Fatturazione mensile</label>
+                    <input type="radio" id="annuale" name="billing">
+                    <label class="yearly" for="yearly">Fatturazione annuale</label>
+                </div>
             </div>
             <div class="container-small">
-                <div class="row flex">
-                </div>
                 <!-- flex row -->
                 <div class="row flex">
                     <!-- flex column -->
@@ -137,7 +139,7 @@
                                 </span>
                                 <hr class="business-plan__hr">
                                 <div>
-                                    <h5 class="plan-offers">Punti Salienti del piano</h5>
+                                    <h5 class="card__h5">Punti Salienti del piano</h5>
                                     <ul class="business_checklist">
                                         <li class="business__list flex">
                                             <i class="fa-solid fa-check"></i>
@@ -189,7 +191,7 @@
                                 </span>
                                 <hr class="business-plan__hr">
                                 <div>
-                                    <h5 class="plan-offers">Punti Salienti del piano</h5>
+                                    <h5 class="card__h5">Punti Salienti del piano</h5>
                                     <ul class="business_checklist">
                                         <li class="business__list flex">
                                             <i class="fa-solid fa-check"></i>
@@ -198,6 +200,18 @@
                                         <li class="business__list flex">
                                             <i class="fa-solid fa-check"></i>
                                             <span>Cartelle offline su dispositivi mobili</span>
+                                        </li>
+                                        <li class="business__list flex">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                                        </li>
+                                        <li class="business__list flex">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                                        </li>
+                                        <li class="business__list flex">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Invia file fino a 100 GB con Dropbox Transfert</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -233,7 +247,7 @@
                                     </li>
                                 </ul>
                                 <a class="button button__blue" href="#">
-                                    Prova gratis per 30 giorni
+                                    Contattaci
                                 </a>
                                 <span>
                                     oppure
@@ -241,7 +255,7 @@
                                 </span>
                                 <hr class="business-plan__hr">
                                 <div>
-                                    <h5 class="plan-offers">Punti Salienti del piano</h5>
+                                    <h5 class="card__h5">Punti Salienti del piano</h5>
                                     <ul class="business_checklist">
                                         <li class="business__list flex">
                                             <i class="fa-solid fa-check"></i>
@@ -251,12 +265,33 @@
                                             <i class="fa-solid fa-check"></i>
                                             <span>Cartelle offline su dispositivi mobili</span>
                                         </li>
+                                        <li class="business__list flex">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+                </div>
+                <div class="card card__enterprise">
+                    <div class="card__header flex">
+                        <i class="fa solid fa-user"></i>
+                        <h3 class="card__header__title">Team</h3>
+                    </div>
+                    <div class="card__body__enterprise flex">
+                        <div class="col-70">
+                            <h4 class="plan__title">Enterprise</h4>
+                            <h5 class="card__h5 enterprise__h5">Contatta l'ufficio vendite per i prezi</h5>
+                            <p class="enterprise__text">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                        </div>
+                        <div class="col-30">
+                            <a class="button button__blue enterprise__button" href="#">Contatta l'ufficio vendite</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

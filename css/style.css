@@ -85,13 +85,23 @@ img{
 .business__title{
     font-size: 40px;
 }
+.billing{
+    padding: 40px 0 20px 0;
+}
+.monthly, .yearly{
+    padding-right: 50px;
+}
+.row{
+    margin: 0 -24px;
+}
 .col-4{
     flex-basis: calc(100% / 3);
-    padding: 20px;
+    padding: 24px;
 }
 .card{
     border: 1px solid lightgray;
     font-size: 14px;
+    height: 930px;
 }
 .card__header{
     justify-content: center;
@@ -134,12 +144,34 @@ img{
     border: none;
     background-color: lightgray;
     height: 1px;
-    margin: 10px 0;
+    margin-top: 10px;
 }
-.plan-offers{
+.card__h5{
     font-size: 14px;
+    padding: 20px 0;
 }
 .fa-check{
     color:#0061FF;
     font-size: 15px;
+}
+
+/* enterprise layout */
+.card__enterprise{
+    height: auto;
+}
+.card__body__enterprise{   
+    padding: 30px;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.col-30 .enterprise__button{
+    padding: 15px 53px;
+}
+
+ .enterprise__h5{
+    padding: 5px 0;
+}
+.enterprise__text{
+    padding: 50px 0 5px 0;
 }
