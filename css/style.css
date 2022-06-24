@@ -213,9 +213,13 @@ img{
     padding: 40px 0 30px 0;
 }
 
-/* operation */
+/* tools */
 .tools{
     padding: 160px 0;
+}
+.tools__big-title{
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 .tools__img{
     margin-bottom: 5px;
