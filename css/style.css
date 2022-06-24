@@ -48,11 +48,16 @@ img{
 .nav__dx{
     padding-right: 20px;
 }
-.nav__logo, .menu__element{
-    padding: 10px 20px;
+.nav__menu{
+    gap: 20px;
 }
-
-
+.nav__logo{
+    padding: 0 20px;
+    flex-shrink: 0;
+}
+.nav__menu .menu__element a{ 
+    padding: 10px 18px;
+}
 
 /* *hero layout */
 .hero{
@@ -66,12 +71,12 @@ img{
 }
 
 .col-30{
-    flex-basis: 30%;
+    flex-basis: calc(100% / 3);
     flex-direction: column;
     gap: 50px;
 }
 .col-70{
-    flex-basis: 70%;
+    flex-basis: calc(100% * 2 / 3);
 }
 
 .hero__arrow{
@@ -101,7 +106,7 @@ img{
 .card{
     border: 1px solid lightgray;
     font-size: 14px;
-    height: 930px;
+    height: 950px;
 }
 .card__header{
     justify-content: center;
@@ -169,7 +174,7 @@ img{
     padding: 15px 53px;
 }
 
- .enterprise__h5{
+.enterprise__h5{
     padding: 5px 0;
 }
 .enterprise__text{
