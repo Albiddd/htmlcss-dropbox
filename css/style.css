@@ -37,7 +37,7 @@ img{
 }
 /* buttons */
 .button{
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-align: center;
 }
 .button__blue{
@@ -72,13 +72,21 @@ img{
 }
 
 .col-4{
-    flex-basis: 60%;
+    flex-basis: calc(100% / 12 * 4);
 }
 .col-8{
-    flex-basis: 40%;
-    padding: 40px 0 30px 0;
+    flex-basis: calc(100% / 12 * 8);  
 }
 
+
+.col-50{
+    flex-basis: 50%;
+}
+
+.footer__col{
+    flex-grow: 1;
+    flex-basis: calc(100% / 5);
+} 
 /* nav bar layout */
 .main-nav{
     justify-content: space-between;
@@ -176,8 +184,8 @@ img{
 .business-plan__hr{
     width: 55px;
     border: none;
-    background-color: lightgray;
     height: 1px;
+    background-color: lightgray;
     margin-top: 10px;
 }
 
@@ -209,10 +217,22 @@ img{
 }
 
 /* partner layout */
-.partner__text{
-    padding: 40px 0 30px 0;
+.partner{
+    padding-top: 100px;
 }
-
+.partner__text{
+    padding: 50px 0 0 40px;
+}
+.partner__text h3{
+    font-size: 24pxs;
+    margin-bottom: 20px;
+}
+.partner__text p{
+    margin-bottom: 40px;
+}
+.button-border{
+    border: 1px solid black;
+}
 /* tools */
 .tools{
     padding: 160px 0;
@@ -230,6 +250,9 @@ img{
 }
 
 /* team */
+.team-row{
+    background-color: #F5F5F5;
+}
 .team-title-container{
     max-width: 700px;
     margin-bottom: 160px;
@@ -282,9 +305,85 @@ img{
     flex-direction: column;
     gap: 50px;
     padding: 50px;
-    background-color: #F5F5F5;
+   
 }
 .description__card img{
     width: 50%;
     height: 50%;
+}
+.description__card hr{
+    width: 110px;
+}
+
+/* free-trial */
+.free-trial{
+    background-color: #B4D0E7;
+}
+.trial__title{
+    font-size: 40px;
+    color: #61082B;
+}
+.trial__row{
+    align-items: baseline;
+    padding: 100px 0;
+    gap: 20px;
+}
+.trial__button{
+    text-align: right;
+}
+.trial__button .button{
+    background-color: white;
+    padding: 10px 50px;
+}
+
+
+/* faq */
+.faq{
+    padding: 160px 0;
+}
+.faq hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+.faq__title{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.fa-angle-down{
+    padding-right: 40px;
+}
+.question{
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding: 100px 0;
+    color: white;
+}
+.footer__row{
+    margin-bottom: 80px;
+}
+.footer__col h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer__list{
+    font-size: 14px;
+    line-height: 2.3;
+}
+footer hr{
+    border: 0;
+    height: 1px;
+    width: 100px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.language{
+    color: lightgray;
+    font-size: 14px;
 }
